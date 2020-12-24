@@ -73,7 +73,7 @@ const patientInformation = (req, res) => {
                         bloodPressure: doc.bloodPressure,
                         pregnancyWeek: doc.pregnancyWeek,
                         symptoms: doc.symptoms,
-                        file: "http://localhost:3000/uploads/" + doc.file
+                        file: "http://ec2-54-87-240-168.compute-1.amazonaws.com:3000/uploads/" + doc.file
                     };
                 })
             };
